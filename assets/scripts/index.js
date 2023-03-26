@@ -4,14 +4,26 @@
             .then(response => response.json())
             .then(user => 
                 {
-                    document.getElementById("img-api")
+                    if (user.media_type == "video")
+                    {document.getElementById("video-api")
                     .src = user.url;
                     document.getElementById
                     ("date").innerText = user.date;
                     document.getElementById
                     ("title").innerText = user.title;
                     document.getElementById
-                    ("explanation").innerText = user.explanation;
+                    ("explanation").innerText = user.explanation;}
+
+                    if (user.media_type == "img") {document.getElementById("img-api")
+                    .src = user.url;
+                    document.getElementById
+                    ("date").innerText = user.date;
+                    document.getElementById
+                    ("title").innerText = user.title;
+                    document.getElementById
+                    ("explanation").innerText = user.explanation;}
+                    
+                    
             })
             .catch(error => console.log(error));
         });
