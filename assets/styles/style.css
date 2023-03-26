@@ -27,13 +27,12 @@
     font-weight: 500;
   }
   p {
-        text-align: justify;
-        color: rgb(59, 59, 59);
-        /* text-transform: uppercase; */
-        font-family: "Montserrat";
-        font-weight: 500;
-        padding-bottom: 20px;
-      }
+    text-align: justify;
+    color: rgb(59, 59, 59);
+    font-family: "Montserrat";
+    font-weight: 500;
+    padding-bottom: 20px;
+ }
   .main {
     display: flex;
     flex-direction: column;
