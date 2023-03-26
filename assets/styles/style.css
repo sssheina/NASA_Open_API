@@ -13,14 +13,14 @@
     font-family: "Montserrat";
     font-weight: 900;
   }
-  .title {
+  #title {
     text-align: center;
     color: rgb(2, 202, 216);
     text-transform: uppercase;
     font-family: "Montserrat";
     font-weight: 700;
   }
-  .date {
+  #date {
     text-align: center;
     color: rgb(2, 202, 216);
     text-transform: uppercase;
