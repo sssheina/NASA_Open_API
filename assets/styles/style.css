@@ -11,14 +11,14 @@
     color: rgb(59, 59, 59);
     text-transform: uppercase;
     font-family: "Montserrat";
-    font-weight: 900;
+    font-weight: 500;
   }
   #title {
     text-align: center;
     color: rgb(2, 202, 216);
     text-transform: uppercase;
     font-family: "Montserrat";
-    font-weight: 700;
+    font-weight: 900;
   }
   #date {
     text-align: center;
