@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap');
 
-
-
-  
-  
   body {
     padding: 0;
     background: #fff;
@@ -38,10 +34,7 @@
         font-weight: 500;
         padding-bottom: 20px;
       }
-  
-
-
-.main {
+  .main {
     display: flex;
     flex-direction: column;
     width: 700px;
