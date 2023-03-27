@@ -14,7 +14,7 @@
                     document.getElementById
                     ("explanation").innerText = user.explanation;}
 
-                    if (user.media_type == "img") {document.getElementById("img-api")
+                    if (user.media_type == "image") {document.getElementById("img-api")
                     .src = user.url;
                     document.getElementById
                     ("date").innerText = user.date;
