@@ -1,6 +1,6 @@
 
     document.addEventListener("DOMContentLoaded", function(event) {
-        fetch("https://api.nasa.gov/planetary/apod?api_key=nZnbOGViqyQffzHxGJnhqJwPghyZqb7AfEMb6lKM")
+        fetch("https://api.nasa.gov/planetary/apod")
             .then(response => response.json())
             .then(user => 
                 {
